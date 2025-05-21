@@ -1,0 +1,6 @@
+google-adk==0.5.0
+anthropic[vertex]==0.51.0
+fastmcp==2.3.4
+nest-asyncio==1.6.0
+google-cloud-aiplatform[agent_engines]==1.93.0
+
