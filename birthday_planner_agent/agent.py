@@ -106,12 +106,11 @@ if __name__ == "__main__":
 
         # Start the conversation
         await interact_with_agent(
-            app_name, user, session_id, "Hi! Can you help me plan a birthday?"
+            app_name, user, session_id, "Hi! Can you help me plan a birthday?", session_service, runner
         )
-        await interact_with_agent(app_name, user, session_id, "They are turning 10.")
+        await interact_with_agent(app_name, user, session_id, "They are turning 10.", session_service, runner)
         await interact_with_agent(
-            app_name, user, session_id, "They love superheroes and space."
-        )
-        await interact_with_agent(app_name, user, session_id, "Great ideas! Thanks!")
+            app_name, user, session_id, "They love superheroes and space.", session_service, runner)
+        await interact_with_agent(app_name, user, session_id, "Great ideas! Thanks!", session_service, runner)
 
     asyncio.run(main_conversation())
