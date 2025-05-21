@@ -1,4 +1,4 @@
-# Workshop: Building Advanced Conversational AI with ADK, MCP, and Vertex AI Agent Engine
+# Workshop: Building agents with ADK, MCP, and Vertex AI Agent Engine
 
 Welcome to this hands-on workshop where you'll learn to build, deploy, and manage sophisticated conversational AI agents using Google's Agent Development Kit (ADK), Managed Cloud Platform (MCP) for tools, and Vertex AI Agent Engine.
 
