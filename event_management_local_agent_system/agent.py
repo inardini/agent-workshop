@@ -139,7 +139,7 @@ if __name__ == "__main__":
         user_id = f"mcp_user_{uuid.uuid4()}"
         current_session_id = f"mcp_session_{uuid.uuid4()}"
 
-        # --- Conversation ---
+        # Conversation 
         logger.info("Starting Event Management Conversation")
         logger.info("=" * 50)
 
