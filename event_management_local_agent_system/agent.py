@@ -9,7 +9,7 @@ from google.adk.sessions import InMemorySessionService
 from google.adk.artifacts import InMemoryArtifactService
 from google.adk.memory import InMemoryMemoryService
 from google.genai.types import Content, Part
-from event_management_local_agent_system.agents import (
+from agents import (
     birthday_planner_agent,
     create_calendar_service_agent,
     create_event_organizer_agent,
